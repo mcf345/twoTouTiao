@@ -1,6 +1,8 @@
 <template>
   <div>
     <h2>app组件</h2>
+    <ToutiaoIcon icon="wode" />
+    <ToutiaoIcon icon="dianzan" />
     <router-view></router-view>
   </div>
 </template>

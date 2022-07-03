@@ -3,7 +3,9 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "@/styles/index.less";
+import ToutiaoIcon from "@/components/ToutiaoIcon.vue";
 
+Vue.component("ToutiaoIcon", ToutiaoIcon);
 Vue.config.productionTip = false;
 
 new Vue({
